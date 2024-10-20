@@ -28,14 +28,8 @@ class SeccionIntermedia extends StatelessWidget {
           const SizedBox(
             height: 5,
           ),
-          Row(
-            children: [
-              Flexible(child: _buildRoundImage('assets/images/gato1.jpg', 'Gato 1')),
-              Flexible(child: _buildRoundImage('assets/images/gato1.jpg', 'Gato 2')),
-              Flexible(child: _buildRoundImage('assets/images/gato1.jpg', 'Gato 3')),
-              Flexible(child: _buildRoundImage('assets/images/gato1.jpg', 'Gato 4')),
-              Flexible(child: _buildRoundImage('assets/images/gato1.jpg', 'Gato 5')),
-            ],
+          const Row(
+            children: [],
           ),
         ],
       ),
